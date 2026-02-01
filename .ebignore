@@ -1,0 +1,15 @@
+# Ignore notebooks
+Notebooks/
+*.ipynb
+
+# Ignore raw and intermediate data
+data/
+
+# Ignore local environment
+venv/
+__pycache__/
+*.pyc
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
