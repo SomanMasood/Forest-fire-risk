@@ -80,6 +80,9 @@ def index():
         risk_color=risk_color
     )
 
+@app.route("/healthz")
+def healthz():
+    return "ok", 200
 
 
 if __name__ == "__main__":
